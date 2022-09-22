@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+#portfolio, #about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 3%;
+  padding: 2%;
+}
+
+.portfolio-card {
+  padding-bottom: 10px;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.card-img {
+  height: 200px;
+  width: 100%;
+}
+
