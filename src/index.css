@@ -25,6 +25,10 @@ code {
   );
 }
 
+a {
+  text-decoration: none;
+}
+
 div .nav {
   display: flex;
   align-items: center;
@@ -32,11 +36,7 @@ div .nav {
 }
 
 #header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
   background: #ffffff;
-  opacity: 90%;
 }
 
 h1 {
