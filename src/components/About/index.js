@@ -1,28 +1,23 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
+import mosheImg from "../../assets/moshe-headshot.jpg";
 
 const About = () => {
   return (
     <section id="about">
-      <>
-        <Card>
-          <Card.Img variant="top" src="moshe-headshot.jpg" alt="Moshe image" />
-          <Card.Body>
-            <blockquote className="blockquote mb-0">
-              <p>
-                {" "}
-                I started coding in 2020 and quickly realized I had a passion as
-                well as a natural talent for it. The idea of solving complex
-                issues and seeing the results of hard work in real time is so
-                incredibly satisfying.{" "}
-              </p>
-              <footer className="blockquote-footer">
-                <cite title="Source Title">Moshe Gadol</cite>
-              </footer>
-            </blockquote>
-          </Card.Body>
-        </Card>
-      </>
+      <div className="about-moshe">
+      <h2>
+        Hi I'm Moshe.
+        <br></br>
+        Full Stack Web Developer with a passion for Front End Development
+      </h2>
+      <p>I started my Web Development career path in 2020 with an intro course provided by <a href="https://www.lighthouselabs.ca/">Lighthouse Labs</a>
+      . This sparked my interest in creating functional, attractive websites from the ground up. After completing that course I decided to upgrade
+       my skills by taking <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2022 Web Development Bootcamp
+       </a> provided by <a href="https://www.linkedin.com/in/angela-yu1/">Dr. Angela Yu</a> through <a href="https://www.londonappbrewery.com/">App Brewery</a></p>
+      </div>
+      <div>
+        <img class="moshe-pic" src={mosheImg} alt="moshe"></img>
+      </div>
     </section>
   );
 };
