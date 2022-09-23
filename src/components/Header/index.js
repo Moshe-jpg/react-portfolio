@@ -1,8 +1,7 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <section id="header">
       <Nav variant="pills">
@@ -13,14 +12,7 @@ const Header = () => {
             </Nav.Link>
           </Nav.Item>
         </div>
-        <div>
-          <NavDropdown title="Menu" id="nav-dropdown">
-            <NavDropdown.Item href="#about">About Me</NavDropdown.Item>
-            <NavDropdown.Item href="#portfolio">My Portfolio</NavDropdown.Item>
-            <NavDropdown.Item href="#contact">Contact Me</NavDropdown.Item>
-            <NavDropdown.Item href="#resume">My Resume</NavDropdown.Item>
-          </NavDropdown>
-        </div>
+        {props.children}
       </Nav>
     </section>
   );
