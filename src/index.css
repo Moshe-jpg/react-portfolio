@@ -23,6 +23,7 @@ code {
     white,
     black
   );
+  scroll-behavior: smooth;
 }
 
 a {
@@ -50,7 +51,7 @@ h1 {
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #portfolio {
@@ -88,10 +89,11 @@ h1 {
 
 .about-moshe {
   text-align: left;
-  padding: 5%;
-  margin: 5%;
+  margin-left: 5vw;
+  padding: 2% 5%;
   line-height: 1.5;
   letter-spacing: 1px;
+  overflow-wrap: break-word;
 }
 
 .about-statement {
@@ -99,24 +101,119 @@ h1 {
 }
 
 .moshe-pic {
-  width: 33vw;
-  height: 400px;
-  padding-right: 10%;
+  width: 25vw;
   margin-right: 5vw;
+  border: 1px solid grey;
+  box-shadow: 10px 10px 10px black;
+  border-radius: 25px;
 }
 
 #contact {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: nowrap;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.thornhill-map, .contact-form {
+  height: 75vh;
+  width: 45vw;
+  border-radius: 10px;
 }
 
 .contact-form {
-  background: blue;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
+
+form {
+  width: 85%;
+}
+
+.contact-header {
+  position: relative;
+  bottom: 10%;
+}
+
+/* contact form styling */
+input {
+  text-align: center;
+}
+
+.inputBox {
+  position: relative;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.inputBox input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #fff;
+  background: #748DA6;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+  font-size: 1em;
+  transition: 0.5s;
+}
+ 
+.inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.25);
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.inputBox input:focus ~ span {
+  color: #748DA6;
+  transform: translateX(30px) translateY(-7px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background: #ffffff;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  letter-spacing: 0.2em;
+}
+
+.inputBox input:focus {
+  border: 1px solid #000000;
+}
+
+/* The input buttons */
+
+.inputBoxBtn {
+  text-align: center;
+}
+/*  */
 
 .footer-p {
   margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+  #about {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .moshe-pic {
+    width: 35vw;
+    margin: 25px;
+    height: unset;
+    border: 1px solid grey;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 25px;
+    padding: unset;
+  }
 }

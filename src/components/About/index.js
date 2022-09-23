@@ -19,7 +19,7 @@ const About = () => {
        <a href="#portfolio">Check out some of my projects below 👇</a>
       </div>
       <div>
-        <img class="moshe-pic" src={mosheImg} alt="moshe"></img>
+        <img className="moshe-pic" src={mosheImg} alt="moshe"></img>
       </div>
     </section>
   );
