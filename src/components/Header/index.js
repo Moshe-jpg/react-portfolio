@@ -7,7 +7,7 @@ const Header = (props) => {
       <Nav variant="pills">
         <div>
           <Nav.Item>
-            <Nav.Link href="/">
+            <Nav.Link href="https://moshe-jpg.github.io/react-portfolio/">
               <h1>Moshe Gadol</h1>
             </Nav.Link>
           </Nav.Item>
