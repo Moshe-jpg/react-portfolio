@@ -296,8 +296,9 @@ h4 {
   }
 
   .thornhill-map, .contact-form {
-    height: 45vh;
+    height: 75vh;
     width: 90vw;
+    margin: 30px 0;
   }
 
   .inputBoxBtn {
