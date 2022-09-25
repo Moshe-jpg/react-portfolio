@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.4ad54b05.css",
+    "main.js": "/react-portfolio/static/js/main.111b1b70.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/productivity.jpg": "/react-portfolio/static/media/productivity.e2510ab3119c3eb3fb4f.jpg",
+    "static/media/moshe-headshot.jpg": "/react-portfolio/static/media/moshe-headshot.c10dab1b0203d4e09230.jpg",
+    "static/media/blog.jpg": "/react-portfolio/static/media/blog.15bdd1ae1bab5e28c898.jpg",
+    "static/media/readirect.jpg": "/react-portfolio/static/media/readirect.ef2648ddd825591842e9.jpg",
+    "static/media/exercise.jpg": "/react-portfolio/static/media/exercise.08499e4773ff5600ffca.jpg",
+    "static/media/team.jpg": "/react-portfolio/static/media/team.9b90700a9d7c4a25ba56.jpg",
+    "static/media/email.jpg": "/react-portfolio/static/media/email.e0d1d4268adf65cc4cf9.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.4ad54b05.css.map": "/react-portfolio/static/css/main.4ad54b05.css.map",
+    "main.111b1b70.js.map": "/react-portfolio/static/js/main.111b1b70.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ad54b05.css",
+    "static/js/main.111b1b70.js"
+  ]
+}
