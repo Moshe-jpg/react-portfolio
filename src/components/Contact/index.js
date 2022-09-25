@@ -64,8 +64,8 @@ const Contact = () => {
             />
             <span>Message:</span>
           </div>
-          <div className="inputBoxBtn">
-            <button type="submit">Submit</button>
+          <div className="inputBoxBtnContainer">
+            <button type="submit" className="inputBoxBtn">Submit</button>
           </div>
         </form>
       </div>

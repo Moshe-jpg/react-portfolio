@@ -79,6 +79,11 @@ h1 {
 .card-img {
   height: 200px;
   width: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.card-img:hover {
+  opacity: 80%;
 }
 
 .about-card {
@@ -115,9 +120,11 @@ h1 {
   flex-direction: row;
   flex-wrap: nowrap;
   min-height: 100vh;
+  text-align: center;
 }
 
-.thornhill-map, .contact-form {
+.thornhill-map,
+.contact-form {
   height: 75vh;
   width: 45vw;
   border-radius: 10px;
@@ -156,14 +163,14 @@ input {
   width: 100%;
   padding: 10px;
   border: 1px solid #fff;
-  background: #748DA6;
+  background: #748da6;
   border-radius: 5px;
   outline: none;
   color: #ffffff;
   font-size: 1em;
   transition: 0.5s;
 }
- 
+
 .inputBox span {
   position: absolute;
   left: 0;
@@ -176,7 +183,7 @@ input {
 }
 
 .inputBox input:focus ~ span {
-  color: #748DA6;
+  color: #748da6;
   transform: translateX(30px) translateY(-7px);
   font-size: 0.65em;
   padding: 0 10px;
@@ -192,16 +199,72 @@ input {
 
 /* The input buttons */
 
-.inputBoxBtn {
+.inputBoxBtnContainer {
   text-align: center;
 }
-/*  */
 
-.footer-p {
-  margin: 0;
+.inputBoxBtn {
+  text-align: center;
+  background-color: rgb(0, 128, 107);
+  border: 0;
+  height: 5vh;
+  width: 10vw;
+  padding: 1%;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.5s ease-in-out;
+  border-radius: 5px;
+  letter-spacing: 1.25px;
 }
 
-@media screen and (max-width: 500px) {
+.inputBoxBtn:hover {
+  background-color: #000000;
+  transition: color 0.5s ease-in-out;
+}
+
+/*  */
+
+#footer {
+  background: #ffffff;
+  color: #000000;
+  margin-bottom: 35px;
+  padding-top: 25px;
+}
+
+.section-statement {
+  text-align: center;
+}
+
+.footer-section-icons {
+  background: #ffffff;
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+.down-arrow-img {
+  width: 2.8rem;
+}
+
+
+.footer-icon-img {
+  box-shadow: 10px 10px 20px black;
+  border-radius: 50%;
+  width: 2.8rem;
+  transition: 0.5s ease-in-out;
+}
+
+.footer-icon-img:hover {
+  transform: rotate(40deg);
+}
+
+@media screen and (max-width: 750px) {
   #about {
     display: flex;
     flex-direction: column-reverse;
@@ -216,4 +279,34 @@ input {
     border-radius: 25px;
     padding: unset;
   }
+}
+
+@media screen and (max-width: 500px) {
+  .about-moshe {
+    text-align: center;
+    padding: 10px 25px;
+  }
+
+  .portfolio-card {
+    padding: 15px 0;
+  }
+
+  #contact {
+    flex-direction: column-reverse;
+  }
+
+  .thornhill-map, .contact-form {
+    height: 45vh;
+    width: 90vw;
+  }
+
+  .inputBoxBtn {
+    height: 5vh;
+    width: 30vw;
+  }
+
+  .moshe-pic {
+    border-radius: 0;
+  }
+
 }

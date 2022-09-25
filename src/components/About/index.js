@@ -15,8 +15,8 @@ const About = () => {
        my skills by taking <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2022 Web Development Bootcamp
        </a> provided by <a href="https://www.linkedin.com/in/angela-yu1/">Dr. Angela Yu</a> through <a href="https://www.londonappbrewery.com/">App Brewery</a>.
        I then enrolled in <a href="https://learn.utoronto.ca/programs-courses/courses/3440-uoft-scs-coding-boot-camp">Full Stack Coding Bootcamp</a> provided by <a href="http://learn.utoronto.ca/">University of Toronto</a>.
-       This is where my understanding and creativity took off, and I began implementing Full Scale websites under the Bootcamps direction.</p>
-       <a href="#portfolio">Check out some of my projects below 👇</a>
+       This is where my understanding and creativity took off, and I began implementing Full Stack, Responsive websites under the Bootcamps direction.</p>
+       <p>Check out some of my projects on <a href="https://github.com/Moshe-jpg">Github</a></p> 
       </div>
       <div>
         <img className="moshe-pic" src={mosheImg} alt="moshe"></img>
