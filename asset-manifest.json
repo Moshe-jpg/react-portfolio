@@ -1,22 +1,32 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.72e2015f.css",
-    "main.js": "/react-portfolio/static/js/main.04feef21.js",
+    "main.css": "/react-portfolio/static/css/main.843e6baa.css",
+    "main.js": "/react-portfolio/static/js/main.4bab7db1.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/productivity.jpg": "/react-portfolio/static/media/productivity.e2510ab3119c3eb3fb4f.jpg",
     "static/media/moshe-headshot.jpg": "/react-portfolio/static/media/moshe-headshot.c10dab1b0203d4e09230.jpg",
+    "static/media/Mock-Work-Resume.pdf": "/react-portfolio/static/media/Mock-Work-Resume.c49da2a7cf4e43b32a91.pdf",
     "static/media/blog.jpg": "/react-portfolio/static/media/blog.15bdd1ae1bab5e28c898.jpg",
+    "static/media/jquery.png": "/react-portfolio/static/media/jquery.d7a89b5bf087dbfdcf55.png",
+    "static/media/mysql.png": "/react-portfolio/static/media/mysql.6e42b2a035b28f240021.png",
+    "static/media/node.png": "/react-portfolio/static/media/node.47947f776746fa8acfc5.png",
     "static/media/readirect.jpg": "/react-portfolio/static/media/readirect.ef2648ddd825591842e9.jpg",
     "static/media/exercise.jpg": "/react-portfolio/static/media/exercise.08499e4773ff5600ffca.jpg",
     "static/media/team.jpg": "/react-portfolio/static/media/team.9b90700a9d7c4a25ba56.jpg",
+    "static/media/sequelize.png": "/react-portfolio/static/media/sequelize.e7adaa25f39264c50149.png",
+    "static/media/handlebars.png": "/react-portfolio/static/media/handlebars.1ca2ba0f606416302571.png",
+    "static/media/javascript.png": "/react-portfolio/static/media/javascript.78206ba65e01c7d57080.png",
     "static/media/email.jpg": "/react-portfolio/static/media/email.e0d1d4268adf65cc4cf9.jpg",
+    "static/media/bootstrap.png": "/react-portfolio/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/css.png": "/react-portfolio/static/media/css.282c2400cc6fa3e4d6b8.png",
+    "static/media/mongodb.png": "/react-portfolio/static/media/mongodb.940824112db2f1788f28.png",
     "index.html": "/react-portfolio/index.html",
-    "main.72e2015f.css.map": "/react-portfolio/static/css/main.72e2015f.css.map",
-    "main.04feef21.js.map": "/react-portfolio/static/js/main.04feef21.js.map",
+    "main.843e6baa.css.map": "/react-portfolio/static/css/main.843e6baa.css.map",
+    "main.4bab7db1.js.map": "/react-portfolio/static/js/main.4bab7db1.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72e2015f.css",
-    "static/js/main.04feef21.js"
+    "static/css/main.843e6baa.css",
+    "static/js/main.4bab7db1.js"
   ]
 }
