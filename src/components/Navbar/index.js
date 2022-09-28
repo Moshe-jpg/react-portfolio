@@ -8,10 +8,11 @@ const Navbar = (props) => {
   return (
     <div>
       <NavDropdown title="Menu" id="nav-dropdown">
-        <NavDropdown.Item href="#about" onClick={ () => setCurrentPage(pages[0]) }>About Me</NavDropdown.Item>
-        <NavDropdown.Item href="#portfolio" onClick={ () => setCurrentPage(pages[1]) }>My Portfolio</NavDropdown.Item>
-        <NavDropdown.Item href="#contact" onClick={ () => setCurrentPage(pages[2]) }>Contact Me</NavDropdown.Item>
-        <NavDropdown.Item href="#resume" onClick={ () => setCurrentPage(pages[3]) }>My Resume</NavDropdown.Item>
+        <NavDropdown.Item onClick={ () => setCurrentPage(pages[0]) }>About Me</NavDropdown.Item>
+        <NavDropdown.Item onClick={ () => setCurrentPage(pages[1]) }>My Portfolio</NavDropdown.Item>
+        <NavDropdown.Item onClick={ () => setCurrentPage(pages[2]) }>My Skills</NavDropdown.Item>
+        <NavDropdown.Item onClick={ () => setCurrentPage(pages[3]) }>Contact Me</NavDropdown.Item>
+        <NavDropdown.Item onClick={ () => setCurrentPage(pages[4]) }>My Resume</NavDropdown.Item>
       </NavDropdown>
     </div>
   );

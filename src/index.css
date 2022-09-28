@@ -38,6 +38,9 @@ div .nav {
 
 #header {
   background: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 h1 {

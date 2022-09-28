@@ -1,6 +1,7 @@
 import React from "react";
 import About from "../About";
 import Portfolio from "../Portfolio";
+import Skills from "../Skills";
 import Contact from "../Contact";
 import Resume from "../Resume";
 import PageContent from "../PageContent";
@@ -15,12 +16,16 @@ const Page = ({ currentPage }) => {
         document.title = "My Portfolio";
       return <Portfolio />;
     }
+    if (currentPage.name === "My Skills") {
+      document.title = "My Skills";
+    return <Skills />;
+  }
     if (currentPage.name === "Contact Me") {
         document.title = "Contact Me";
       return <Contact />;
     }
-    if (currentPage.name === "Resume") {
-        document.title = "Resume";
+    if (currentPage.name === "My Resume") {
+        document.title = "My Resume";
       return <Resume />;
     }
   };

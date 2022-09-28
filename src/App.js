@@ -8,6 +8,7 @@ function App() {
   const [pages] = useState([
     { name: "About Me" },
     { name: "My Portfolio" },
+    { name: "My Skills"},
     { name: "Contact Me" },
     { name: "My Resume" },
   ]);
