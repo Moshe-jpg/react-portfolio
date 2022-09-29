@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import githubIcon from "../../assets/github.jpg";
-import linkedinIcon from "../../assets/linkedin.jpg";
-import phoneIcon from "../../assets/phone.jpg";
-import emailIcon from "../../assets/email.jpg";
+import githubIcon from "../../assets/github-footer.png";
+import linkedinIcon from "../../assets/linkedin-footer.png";
+import phoneIcon from "../../assets/phone-footer.png";
+import emailIcon from "../../assets/gmail-footer.png";
 import downArrowImg from "../../assets/down-arrow.jpg";
 
 const Footer = () => {

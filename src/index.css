@@ -115,6 +115,8 @@ label:hover {
   transition: 0.5s ease-in-out;
 }
 
+
+/*  */
 .about-card-btn:hover {
   box-shadow: 5px 5px 5px black;
   transform: translatey(-10px);
@@ -278,7 +280,6 @@ input {
 }
 
 .skill {
-  /* background: red; */
   height: 12rem;
   width: 12rem;
   margin: 25px;
@@ -328,14 +329,14 @@ h4 {
 }
 
 .footer-icon-img {
-  box-shadow: 10px 10px 20px black;
-  border-radius: 10px;
   width: 2.8rem;
   transition: 0.5s ease-in-out;
 }
 
 .footer-icon-img:hover {
-  transform: rotate(40deg);
+  transform: rotateX(-10px);
+  box-shadow: 10px 10px 20px black;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 750px) {
@@ -361,6 +362,7 @@ h4 {
 
   .about-moshe {
     text-align: center;
+    margin: 25px 0;
   }
 
   .about-paragraph {
