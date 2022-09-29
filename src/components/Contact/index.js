@@ -1,21 +1,39 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const { name, email, message } = formState;
+  const form = useRef();
 
-  function handleChange(e) {
-    setFormState({ ...formState, [e.target.name]: e.target.value });
-  }
-
-  function handleSubmit(e) {
+  const sendEmail = (e) => {
     e.preventDefault();
-    console.log(formState);
-  }
+
+    emailjs
+      .sendForm(
+        "service_yzucm0t",
+        "contact_form",
+        form.current,
+        "iwUP8eH1NlcSvoxkb"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          let inputs = document.querySelectorAll("input");
+          inputs.forEach((input) => (input.value = ""));
+
+          let contactHeader = document.getElementById("contact-header");
+          contactHeader.style.fontSize = "35px";
+          contactHeader.style.color = "green";
+          contactHeader.textContent = "Message Sent ✔";
+
+          let submitBtn = document.getElementById("submitBtn");
+          submitBtn.style.backgroundColor = "green";
+
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <section id="contact">
@@ -32,40 +50,31 @@ const Contact = () => {
         alt="maps location"
       ></iframe>
       <div className="contact-form">
-        <h4 className="contact-header">Contact me</h4>
-        <form onSubmit={handleSubmit}>
+        <h4 className="contact-header" id="contact-header">
+          Contact me
+        </h4>
+        <form ref={form} onSubmit={sendEmail}>
           <div className="inputBox">
             <input
               type="text"
-              defaultValue={name}
-              name="name"
+              name="user_name"
               required="required"
-              onChange={handleChange}
+              className="input1"
             />
             <span>Name:</span>
           </div>
           <div className="inputBox">
-            <input
-              type="email"
-              defaultValue={email}
-              name="email"
-              required="required"
-              onChange={handleChange}
-            />
+            <input type="email" name="user_email" required="required" />
             <span>Email address:</span>
           </div>
-          <div className="inputBox">
-            <input
-              name="message"
-              defaultValue={message}
-              type="text"
-              required="required"
-              onChange={handleChange}
-            />
+          <div className="inputBox inputBoxMessage">
+            <input name="message" type="text" required="required" className="inputBoxMessageInput"/>
             <span>Message:</span>
           </div>
           <div className="inputBoxBtnContainer">
-            <button type="submit" className="inputBoxBtn">Submit</button>
+            <button type="submit" className="inputBoxBtn" value="send" id="submitBtn" >
+              Submit
+            </button>
           </div>
         </form>
       </div>

@@ -81,7 +81,9 @@ const Skills = () => {
         </div>
       <div id="skills">
         {mySkills.map((skill) => (
+          
           <div className="skill">
+            <h6>{skill.name}</h6>
             <a href={skill.skillLink}>
               <img src={skill.skillImg} className="skill-img" alt={skill.name} ></img>
             </a>

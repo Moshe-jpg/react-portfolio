@@ -8,7 +8,9 @@ const Header = (props) => {
         <div>
           <Nav.Item>
             <Nav.Link href="https://moshe-jpg.github.io/react-portfolio/">
-              <h1>Moshe Gadol</h1>
+              <div className="wave">
+                <label>Moshe Gadol</label>
+              </div>
             </Nav.Link>
           </Nav.Item>
         </div>

@@ -13,17 +13,12 @@ code {
 }
 
 #root {
-  background: linear-gradient(
-    45deg,
-    black,
-    white,
-    black,
-    white,
-    black,
-    white,
-    black
-  );
+  background: cornsilk;
   scroll-behavior: smooth;
+}
+
+section {
+  background: cornsilk;
 }
 
 a {
@@ -43,18 +38,41 @@ div .nav {
   z-index: 1000;
 }
 
-h1 {
+label {
   margin-right: auto;
-  color: blue;
+  color: #47b5ff;
+  font-size: 40px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+label span {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 500;
+  transition: 0.5s ease-in-out;
+}
+
+label:hover {
+  text-shadow: 5px 5px 5px black;
+  transform: translateY(-10px);
 }
 
 #about {
-  background: #ffffff;
   display: inline-flex;
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
   min-height: 100vh;
+}
+
+.bold {
+  font-weight: 400;
+}
+
+.not-bold {
+  font-weight: 100;
 }
 
 #portfolio {
@@ -112,8 +130,6 @@ h1 {
   width: 25vw;
   margin-right: 5vw;
   border: 1px solid grey;
-  box-shadow: 10px 10px 10px black;
-  border-radius: 25px;
 }
 
 #contact {
@@ -149,6 +165,7 @@ form {
 .contact-header {
   position: relative;
   bottom: 10%;
+  font-size: 25px;
 }
 
 /* contact form styling */
@@ -171,7 +188,7 @@ input {
   outline: none;
   color: #ffffff;
   font-size: 1em;
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
 }
 
 .inputBox span {
@@ -182,7 +199,7 @@ input {
   font-size: 1em;
   color: rgba(255, 255, 255, 0.25);
   text-transform: uppercase;
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
 }
 
 .inputBox input:focus ~ span {
@@ -200,6 +217,15 @@ input {
   border: 1px solid #000000;
 }
 
+.inputBoxMessage {
+  height: 6rem;
+}
+
+.inputBoxMessageInput {
+  height: 6rem;
+  text-align: left;
+}
+
 /* The input buttons */
 
 .inputBoxBtnContainer {
@@ -208,21 +234,22 @@ input {
 
 .inputBoxBtn {
   text-align: center;
-  background-color: rgb(0, 128, 107);
+  background-color: #47b5ff;
   border: 0;
-  height: 5vh;
-  width: 10vw;
+  width: 8rem;
+  height: 2rem;
   padding: 1%;
   color: #ffffff;
   font-weight: bold;
-  transition: color 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   border-radius: 5px;
   letter-spacing: 1.25px;
 }
 
 .inputBoxBtn:hover {
-  background-color: #000000;
-  transition: color 0.5s ease-in-out;
+  box-shadow: 10px 10px 20px black;
+  transform: translateY(-10px);
+  transition: 0.5s ease-in-out;
 }
 
 /*  */
@@ -285,6 +312,7 @@ input {
 
 h4 {
   font-size: 1.8rem;
+  color: black;
 }
 .down-arrow-img {
   width: 2.8rem;
@@ -312,8 +340,6 @@ h4 {
     margin: 25px;
     height: unset;
     border: 1px solid grey;
-    box-shadow: 10px 10px 10px black;
-    border-radius: 25px;
     padding: unset;
   }
 }
@@ -344,7 +370,8 @@ h4 {
     width: 30vw;
   }
 
-  .moshe-pic {
-    border-radius: 0;
+  .skill {
+    height: 6rem;
+    width: 6rem;
   }
 }
