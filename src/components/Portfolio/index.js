@@ -68,7 +68,7 @@ const Portfolio = () => {
         </div>
       <div id="portfolio">
         {projects.map((project) => (
-          <div className="portfolio-card">
+          <div className="about-card">
             <Card style={{ width: "18rem" }}>
               <Card.Header>{project.header}</Card.Header>
               <Card.Img variant="top" src={project.img} alt={project.name} className="card-img"/>
@@ -76,8 +76,8 @@ const Portfolio = () => {
                 <Card.Title>{project.name}</Card.Title>
                 <Card.Text>{project.text}</Card.Text>
                 <div className="btn-group">
-                    <Button variant="primary" href={project.site_href}>Go to Site</Button>
-                    <Button variant="dark" href={project.repo_href}>Go to Repo</Button>
+                    <Button variant="primary" href={project.site_href} className="about-card-btn" >Go to Site</Button>
+                    <Button variant="dark" href={project.repo_href} className="about-card-btn" >Go to Repo</Button>
                 </div>
               </Card.Body>
             </Card>

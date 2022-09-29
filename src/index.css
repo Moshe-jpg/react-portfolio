@@ -18,7 +18,7 @@ code {
 }
 
 section {
-  background: cornsilk;
+  background: #ECE8FA;
 }
 
 a {
@@ -29,6 +29,10 @@ div .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.nav-pills, .nav-link {
+  color: #47b5ff;
 }
 
 #header {
@@ -85,10 +89,6 @@ label:hover {
   padding: 2%;
 }
 
-.portfolio-card {
-  padding-bottom: 10px;
-}
-
 .btn-group {
   display: flex;
   flex-direction: row;
@@ -103,20 +103,28 @@ label:hover {
   transition: 0.5s ease-in-out;
 }
 
-.card-img:hover {
-  opacity: 80%;
-}
-
 .about-card {
   border: none;
   border-radius: 15px;
-  box-shadow: 10px 10px 19px black;
+  box-shadow: 5px 15px 35px black;
+  transition: 0.5s ease-in-out;
+  margin-bottom: 25px;
+}
+
+.about-card-btn {
+  transition: 0.5s ease-in-out;
+}
+
+.about-card-btn:hover {
+  box-shadow: 5px 5px 5px black;
+  transform: translatey(-10px);
+  transition: 0.5s ease-in-out;
 }
 
 .about-moshe {
   text-align: left;
   margin-left: 5vw;
-  padding: 2% 5%;
+  padding: 0 6%;
   line-height: 1.5;
   letter-spacing: 1px;
   overflow-wrap: break-word;
@@ -312,6 +320,7 @@ input {
 
 h4 {
   font-size: 1.8rem;
+  font-weight: lighter;
   color: black;
 }
 .down-arrow-img {
@@ -320,7 +329,7 @@ h4 {
 
 .footer-icon-img {
   box-shadow: 10px 10px 20px black;
-  border-radius: 50%;
+  border-radius: 10px;
   width: 2.8rem;
   transition: 0.5s ease-in-out;
 }
@@ -345,13 +354,22 @@ h4 {
 }
 
 @media screen and (max-width: 500px) {
-  .about-moshe {
-    text-align: center;
-    padding: 10px 25px;
+
+  label {
+    font-size: 22px;
   }
 
-  .portfolio-card {
-    padding: 15px 0;
+  .about-moshe {
+    text-align: center;
+  }
+
+  .about-paragraph {
+    margin: 0 5%;
+    text-align: justify;
+  }
+
+  .about-card {
+    margin-bottom: 20px;
   }
 
   #contact {
@@ -371,7 +389,7 @@ h4 {
   }
 
   .skill {
-    height: 6rem;
-    width: 6rem;
+    height: 5rem;
+    width: 5rem;
   }
 }
