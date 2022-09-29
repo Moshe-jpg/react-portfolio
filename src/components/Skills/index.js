@@ -75,14 +75,19 @@ const Skills = () => {
   ]);
 
   return (
-    <section id="skills">
-      {mySkills.map((skill) => (
-        <div className="skill">
-          <a href={skill.skillLink}>
-            <img src={skill.skillImg} className="skill-img" alt={skill.name} ></img>
-          </a>
+    <section>
+        <div className="section-statement statement-white">
+            <h4>My Skills</h4>
         </div>
-      ))}
+      <div id="skills">
+        {mySkills.map((skill) => (
+          <div className="skill">
+            <a href={skill.skillLink}>
+              <img src={skill.skillImg} className="skill-img" alt={skill.name} ></img>
+            </a>
+          </div>
+        ))}
+      </div>
     </section>
   );
 };

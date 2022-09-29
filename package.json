@@ -4,6 +4,7 @@
   "homepage": "http://moshe-jpg.github.io/react-portfolio",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.7.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^13.5.0",

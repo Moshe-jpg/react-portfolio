@@ -227,6 +227,11 @@ input {
 
 /*  */
 
+.statement-white {
+  color: #ffffff;
+  padding-top: 25px;
+}
+
 #skills {
   min-height: 100vh;
   display: flex;

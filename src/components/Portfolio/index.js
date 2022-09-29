@@ -63,6 +63,9 @@ const Portfolio = () => {
   return (
 
     <section>
+      <div className="section-statement statement-white">
+            <h4>My Portfolio</h4>
+        </div>
       <div id="portfolio">
         {projects.map((project) => (
           <div className="portfolio-card">
