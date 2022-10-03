@@ -20,7 +20,6 @@ const About = () => {
       </h2>
       <p>I Create Fully Responsive Websites Using The Latest Technologies To Continually Upgrade &#38; Develop My Skills, Enabling Me To Leave Each Client Satisfied With The Results.</p>
       <br></br>
-      <br></br>
       <>
       <Button variant="primary" onClick={handleShow}>
         Read More
