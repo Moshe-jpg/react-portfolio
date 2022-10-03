@@ -7,7 +7,7 @@ const Navbar = (props) => {
 
   return (
     <div>
-      <NavDropdown title="See More" id="nav-dropdown">
+      <NavDropdown title="My Profile" id="nav-dropdown">
         <NavDropdown.Item onClick={ () => setCurrentPage(pages[0]) }>About Me</NavDropdown.Item>
         <NavDropdown.Item onClick={ () => setCurrentPage(pages[1]) }>My Portfolio</NavDropdown.Item>
         <NavDropdown.Item onClick={ () => setCurrentPage(pages[2]) }>My Skills</NavDropdown.Item>

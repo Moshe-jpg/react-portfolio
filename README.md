@@ -5,7 +5,6 @@ My portfolio site is built using a react frontend that loads each page condition
 ### [Check out the live site here](https://moshe-jpg.github.io/react-portfolio/)
 
 <img src="src\assets\sr1.png" alt="screenshot of project">
+<img src="src\assets\sr2.png" alt="screenshot of project">
 <img src="src\assets\sr3.png" alt="screenshot of project">
 <img src="src\assets\sr4.png" alt="screenshot of project">
-<img src="src\assets\sr5.png" alt="screenshot of project">
-<img src="src\assets\sr6.png" alt="screenshot of project">

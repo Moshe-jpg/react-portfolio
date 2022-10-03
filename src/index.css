@@ -18,7 +18,7 @@ code {
 }
 
 section {
-  background: #ECE8FA;
+  background: #ece8fa;
 }
 
 a {
@@ -31,8 +31,28 @@ div .nav {
   justify-content: space-between;
 }
 
-.nav-pills, .nav-link {
+.nav-pills,
+.nav-link {
   color: #47b5ff;
+  transition: 0.5s ease-in-out;
+}
+
+#nav-dropdown:hover {
+  transform: translateY(-10px);
+  color: #0a58ca;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #47b5ff;
+  border: 1px black;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-primary:hover {
+  box-shadow: 5px 5px 5px black;
+  transform: translatey(-10px);
+  transition: 0.5s ease-in-out;
 }
 
 #header {
@@ -46,7 +66,8 @@ label {
   margin-right: auto;
   color: #47b5ff;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: bold;
+  font-family: 'Gemunu Libre', sans-serif;
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
@@ -59,8 +80,8 @@ label span {
 }
 
 label:hover {
-  text-shadow: 5px 5px 5px black;
   transform: translateY(-10px);
+  color: #0a58ca;
 }
 
 #about {
@@ -69,14 +90,22 @@ label:hover {
   flex-direction: row;
   flex-wrap: nowrap;
   min-height: 100vh;
+  min-width: 100%;
 }
 
 .bold {
-  font-weight: 400;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Gemunu Libre', sans-serif;
 }
 
 .not-bold {
   font-weight: 100;
+}
+
+.about-paragraph {
+  text-align: center;
+  padding: 10px 30px;
 }
 
 #portfolio {
@@ -115,7 +144,6 @@ label:hover {
   transition: 0.5s ease-in-out;
 }
 
-
 /*  */
 .about-card-btn:hover {
   box-shadow: 5px 5px 5px black;
@@ -137,9 +165,18 @@ label:hover {
 }
 
 .moshe-pic {
-  width: 25vw;
-  margin-right: 5vw;
-  border: 1px solid grey;
+  width: 275px;
+  border: 4px solid lavender;
+  border-radius: 10px;
+}
+
+.moshe-pic-container {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: repeating-linear-gradient(45deg, white, transparent 100px);
 }
 
 #contact {
@@ -247,7 +284,7 @@ input {
   background-color: #47b5ff;
   border: 0;
   width: 8rem;
-  height: 2rem;
+  height: 2.25rem;
   padding: 1%;
   color: #ffffff;
   font-weight: bold;
@@ -345,6 +382,17 @@ h4 {
     flex-direction: column-reverse;
   }
 
+  .about-moshe {
+    margin-left: 0;
+    text-align: center;
+    padding: 2% 8%;
+  }
+
+  .moshe-pic-container {
+    width: 100%;
+    height: 65vh;
+  }
+
   .moshe-pic {
     width: 35vw;
     margin: 25px;
@@ -355,7 +403,6 @@ h4 {
 }
 
 @media screen and (max-width: 500px) {
-
   label {
     font-size: 22px;
   }
@@ -363,11 +410,20 @@ h4 {
   .about-moshe {
     text-align: center;
     margin: 25px 0;
+    margin-left: 0;
+  }
+
+  .moshe-pic-container {
+    width: 100%;
+    height: 55vh;
+  }
+
+  .moshe-pic {
+    width: 70%;
   }
 
   .about-paragraph {
     margin: 0 5%;
-    text-align: justify;
   }
 
   .about-card {

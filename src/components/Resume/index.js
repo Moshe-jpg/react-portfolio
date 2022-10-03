@@ -1,5 +1,5 @@
 import React from "react";
-import workResume from "../../assets/Moshe-Work-Resume.pdf";
+import workResume from "../../assets/Moshe-Work-Resume-Updated.pdf";
 
 const Resume = () => {
     return (
