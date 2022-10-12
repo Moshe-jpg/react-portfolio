@@ -15,7 +15,7 @@ const Portfolio = () => {
       header: "Top Featured",
       img: innerPatternImg,
       name: "InnerPattern",
-      text: "A mental health tracker application. Allows patients to record and log their moods and entries.",
+      text: "A mental health tracker application. It will empower users to keep track of their thoughts and accompanying mood. ",
       site_href: "http://innerpattern.herokuapp.com//",
       repo_href: "https://github.com/Tyl3r-s/InnerPattern"
     },
@@ -31,7 +31,7 @@ const Portfolio = () => {
       header: "Top Featured",
       img: readirectImg,
       name: "Readirect",
-      text: "A movie/book ratings website that allows users to quickly choose between what's the better version of the story; the movie or the book.",
+      text: "A movie/book ratings website that allows users to quickly choose between what's the better version of the story.",
       site_href: "https://katiebutler37.github.io/readirect/",
       repo_href: "https://github.com/katiebutler37/readirect"
     },
@@ -55,7 +55,7 @@ const Portfolio = () => {
       header: "Featured",
       img: teamImg,
       name: "Build The Team",
-      text: "A team builder website built with inquirer. The user will input their team information into prompts and once done it will dynamically generate a webpage.",
+      text: "A team builder website built with inquirer. The user will input their team information into prompts and it will dynamically generate a webpage.",
       site_href: "https://www.awesomescreenshot.com/video/9887842?key=f308ebe4ec8c3fcb6b8460e1ebe2990e",
       repo_href: "https://github.com/Moshe-jpg/build-the-team"
     },
@@ -63,7 +63,7 @@ const Portfolio = () => {
       header: "Featured",
       img: prodImg,
       name: "Productivity Workday Scheduler",
-      text: "A notetaker which will save your notes in colour coded slots based on the amount of time left to perform them.",
+      text: "A notetaker which will save your notes in colour coded slots based on the amount of time left to perform them. Useful for getting tasks done.",
       site_href: "https://moshe-jpg.github.io/Productivity-Work-Day-Scheduler/",
       repo_href: "https://github.com/Moshe-jpg/Productivity-Work-Day-Scheduler"
     },
