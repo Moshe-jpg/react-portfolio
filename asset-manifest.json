@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e5cc462f.css",
-    "main.js": "/react-portfolio/static/js/main.8d36026d.js",
+    "main.js": "/react-portfolio/static/js/main.975dfe34.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/inner-pattern.png": "/react-portfolio/static/media/inner-pattern.566687ae4c3d8d61e5c3.png",
     "static/media/Moshe-Work-Resume-Updated.pdf": "/react-portfolio/static/media/Moshe-Work-Resume-Updated.121e078d98453d6f7fbf.pdf",
     "static/media/productivity.jpg": "/react-portfolio/static/media/productivity.e2510ab3119c3eb3fb4f.jpg",
     "static/media/moshe-headshot.jpg": "/react-portfolio/static/media/moshe-headshot.c10dab1b0203d4e09230.jpg",
@@ -25,11 +26,11 @@
     "static/media/mongodb.png": "/react-portfolio/static/media/mongodb.940824112db2f1788f28.png",
     "index.html": "/react-portfolio/index.html",
     "main.e5cc462f.css.map": "/react-portfolio/static/css/main.e5cc462f.css.map",
-    "main.8d36026d.js.map": "/react-portfolio/static/js/main.8d36026d.js.map",
+    "main.975dfe34.js.map": "/react-portfolio/static/js/main.975dfe34.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5cc462f.css",
-    "static/js/main.8d36026d.js"
+    "static/js/main.975dfe34.js"
   ]
 }
