@@ -16,7 +16,7 @@ const Portfolio = () => {
       img: innerPatternImg,
       name: "InnerPattern",
       text: "A mental health tracker application. It will empower users to keep track of their thoughts and accompanying mood. ",
-      site_href: "http://innerpattern.herokuapp.com//",
+      site_href: "http://innerpattern.herokuapp.com/",
       repo_href: "https://github.com/Tyl3r-s/InnerPattern"
     },
     {
