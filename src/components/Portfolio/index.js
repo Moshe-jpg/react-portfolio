@@ -7,9 +7,18 @@ import weatherImg from "../../assets/weather.jpg";
 import exerciseImg from "../../assets/exercise.jpg";
 import teamImg from "../../assets/team.jpg";
 import prodImg from "../../assets/productivity.jpg";
+import innerPatternImg from "../../assets/inner-pattern.png";
 
 const Portfolio = () => {
   const [projects] = useState([
+    {
+      header: "Top Featured",
+      img: innerPatternImg,
+      name: "InnerPattern",
+      text: "A mental health tracker application. Allows patients to record and log their moods and entries.",
+      site_href: "http://innerpattern.herokuapp.com//",
+      repo_href: "https://github.com/Tyl3r-s/InnerPattern"
+    },
     {
       header: "Top Featured",
       img: blogImg,
