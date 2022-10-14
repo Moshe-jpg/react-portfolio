@@ -317,7 +317,7 @@ input {
 }
 
 /* Our skill hover cards */
-.card {
+.skill-card {
   position: relative;
   width: 40%;
   height: 350px;
@@ -328,16 +328,17 @@ input {
   justify-content: flex-start;
   align-items: center;
   transition: 0.5s ease-in-out;
+  background: #ffffff;
 }
 
-.card:hover {
+.skill-card:hover {
   width: 50%;
   height: 400px;
   transition-delay: 0s;
   box-shadow: 10px 10px 25px black;
 }
 
-.card .circle {
+.skill-card .circle {
   position: absolute;
   top: 0;
   left: 0;
@@ -350,7 +351,7 @@ input {
   align-items: center;
 }
 
-.card .circle::before {
+.skill-card .circle::before {
   content: "";
   position: absolute;
   top: 0;
@@ -362,18 +363,18 @@ input {
   transition: 0.5s;
 }
 
-.card:hover .circle::before {
+.skill-card:hover .circle::before {
   clip-path: circle(400px at center);
 }
 
-.card .circle .logo {
+.skill-card .circle .logo {
   position: relative;
   width: 200px;
   transition: 0.5s;
   transition-delay: 0.5s;
 }
 
-.card:hover .circle .logo {
+.skill-card:hover .circle .logo {
   transform: scale(0);
   transition-delay: 0s;
 }
@@ -390,7 +391,7 @@ input {
   visibility: hidden;
 }
 
-.card:hover .content {
+.skill-card:hover .content {
   left: 0;
   opacity: 1;
   visibility: visible;
@@ -425,7 +426,7 @@ input {
   background: #000000;
 }
 
-.card .skill-img {
+.skill-card .skill-img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -435,7 +436,7 @@ input {
   transition-delay: 0s;
 }
 
-.card:hover .skill-img {
+.skill-card:hover .skill-img {
   left: 72%;
   width: 10rem;
   height: 10rem;
@@ -515,11 +516,11 @@ h4 {
     flex-direction: unset;
   }
 
-  .card {
+  .skill-card {
     width: 400px;
   }
 
-  .card:hover {
+  .skill-card:hover {
     width: 450px;
   }
 }
@@ -579,27 +580,27 @@ h4 {
     width: 30vw;
   }
 
-  .card {
+  .skill-card {
     width: 80vw;
     height: 30vh;
     margin: 15px;
     border-radius: 15px;
   }
 
-  .card:hover {
+  .skill-card:hover {
     width: 90vw;
     height: 65vh;
   }
 
-  .card .circle::before {
+  .skill-card .circle::before {
     clip-path: circle(90px at center);
   }
 
-  .card:hover .circle::before {
+  .skill-card:hover .circle::before {
     clip-path: circle(300px at center);
   }
 
-  .card .circle .logo {
+  .skill-card .circle .logo {
     width: 50%;
   }
 
@@ -628,11 +629,11 @@ h4 {
     font-size: 1.2em;
   }
 
-  .card .skill-img {
+  .skill-card .skill-img {
     height: 200px;
   }
 
-  .card:hover .skill-img {
+  .skill-card:hover .skill-img {
     width: 100px;
     height: 100px;
     left: 50%;

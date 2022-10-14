@@ -131,7 +131,7 @@ const Skills = () => {
       </div>
       <div id="skills">
         {mySkills.map((skill) => (
-          <div className="card">
+          <div className="skill-card">
             <div className="circle">
               <img className="logo" alt={skill.name} src={skill.skillImg}></img>
             </div>
