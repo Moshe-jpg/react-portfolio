@@ -96,25 +96,29 @@ const Skills = () => {
     },
     {
       name: "Mysql",
-      description: "A tool used to manage databases and servers, while not a database, it's used for managing and organising data.",
+      description:
+        "A tool used to manage databases and servers, while not a database, it's used for managing and organising data.",
       skillImg: MysqlImg,
       skillLink: "https://www.mysql.com/",
     },
     {
       name: "Sequelize",
-      description: "An ORM that makes it easy to work with MySQL, MariaDB, SQLite, PostgreSQL databases, and more.",
+      description:
+        "An ORM that makes it easy to work with MySQL, MariaDB, SQLite, PostgreSQL databases, and more.",
       skillImg: SequelizeImg,
       skillLink: "https://sequelize.org/",
     },
     {
       name: "MongoDB",
-      description: "A document database used to build highly available/scalable internet applications with its flexible schema approach.",
+      description:
+        "A document database used to build highly available/scalable internet applications with its flexible schema approach.",
       skillImg: MongodbImg,
       skillLink: "https://www.mongodb.com/",
     },
     {
       name: "Mongoose",
-      description: "An ODM library for MongoDB and Node. js. It manages data, provides schema validation, and is used to translate between objects.",
+      description:
+        "An ODM library for MongoDB and Node. js. It manages data, provides schema validation, and is used to translate between objects.",
       skillImg: MongooseImg,
       skillLink: "https://mongoosejs.com/",
     },
@@ -129,21 +133,16 @@ const Skills = () => {
         {mySkills.map((skill) => (
           <div className="card">
             <div className="circle">
-              <img
-                className="logo"
-                alt={skill.name}
-                src={skill.skillImg}
-              ></img>
+              <img className="logo" alt={skill.name} src={skill.skillImg}></img>
             </div>
             <div class="content">
               <h2>{skill.name}</h2>
               <p className="skill-desc">{skill.description}</p>
-              <a className="skill-link" href={skill.skillLink}>Explore</a>
+              <a className="skill-link" href={skill.skillLink}>
+                Explore
+              </a>
             </div>
-            <img
-            src={skill.skillImg}
-            alt={skill.name}
-            class="skill-img"/>
+            <img src={skill.skillImg} alt={skill.name} class="skill-img" />
           </div>
         ))}
       </div>

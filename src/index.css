@@ -334,6 +334,7 @@ input {
   width: 50%;
   height: 400px;
   transition-delay: 0s;
+  box-shadow: 10px 10px 25px black;
 }
 
 .card .circle {
@@ -485,7 +486,7 @@ h4 {
   border-radius: 10px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
   #about {
     display: flex;
     flex-direction: column-reverse;
@@ -508,6 +509,18 @@ h4 {
     height: unset;
     border: 1px solid grey;
     padding: unset;
+  }
+
+  #skills {
+    flex-direction: unset;
+  }
+
+  .card {
+    width: 400px;
+  }
+
+  .card:hover {
+    width: 450px;
   }
 }
 
@@ -563,14 +576,15 @@ h4 {
   }
 
   .card {
-    width: 200px;
-    height: 250px;
+    width: 80vw;
+    height: 30vh;
     margin: 15px;
     border-radius: 15px;
   }
 
   .card:hover {
-    width: 500px;
+    width: 90vw;
+    height: 45vh;
   }
 
   .card .circle::before {
@@ -586,7 +600,13 @@ h4 {
   }
 
   .content {
-    padding: 10px 10px 10px 20px;
+    position: relative;
+    top: 50%;
+    width: 90%;
+    height: 40%;
+    text-align: center;
+    padding: 0;
+    margin-right: 0;
   }
 
   .content h2 {
@@ -606,5 +626,13 @@ h4 {
 
   .card .skill-img {
     height: 200px;
+  }
+
+  .card:hover .skill-img {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    position: absolute;
+    top: 25%;
   }
 }
