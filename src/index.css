@@ -563,6 +563,10 @@ h4 {
     flex-direction: column-reverse;
   }
 
+  #skills {
+    padding: 0 25px;
+  }
+
   .thornhill-map,
   .contact-form {
     height: 75vh;
@@ -584,7 +588,7 @@ h4 {
 
   .card:hover {
     width: 90vw;
-    height: 45vh;
+    height: 65vh;
   }
 
   .card .circle::before {
@@ -596,7 +600,7 @@ h4 {
   }
 
   .card .circle .logo {
-    width: 150px;
+    width: 50%;
   }
 
   .content {
