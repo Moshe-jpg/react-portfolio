@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.dfb92c42.css",
-    "main.js": "/react-portfolio/static/js/main.80dc7f98.js",
+    "main.css": "/react-portfolio/static/css/main.da3f343f.css",
+    "main.js": "/react-portfolio/static/js/main.9b543314.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/inner-pattern.png": "/react-portfolio/static/media/inner-pattern.566687ae4c3d8d61e5c3.png",
     "static/media/Moshe-Work-Resume-Updated.pdf": "/react-portfolio/static/media/Moshe-Work-Resume-Updated.121e078d98453d6f7fbf.pdf",
@@ -25,12 +25,12 @@
     "static/media/css.png": "/react-portfolio/static/media/css.282c2400cc6fa3e4d6b8.png",
     "static/media/mongodb.png": "/react-portfolio/static/media/mongodb.940824112db2f1788f28.png",
     "index.html": "/react-portfolio/index.html",
-    "main.dfb92c42.css.map": "/react-portfolio/static/css/main.dfb92c42.css.map",
-    "main.80dc7f98.js.map": "/react-portfolio/static/js/main.80dc7f98.js.map",
+    "main.da3f343f.css.map": "/react-portfolio/static/css/main.da3f343f.css.map",
+    "main.9b543314.js.map": "/react-portfolio/static/js/main.9b543314.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfb92c42.css",
-    "static/js/main.80dc7f98.js"
+    "static/css/main.da3f343f.css",
+    "static/js/main.9b543314.js"
   ]
 }
