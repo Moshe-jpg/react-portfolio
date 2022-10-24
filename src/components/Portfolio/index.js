@@ -16,7 +16,7 @@ const Portfolio = () => {
       header: "Top Featured",
       img: starbsImg,
       name: "Starbucks",
-      text: "A Starbucks clone. Wbesite is fully responsive, and is complete with animations, landing, current, & contact pages.",
+      text: "A Starbucks clone. Website is fully responsive, and is complete with animations, landing, current, & contact pages.",
       site_href: "https://moshe-jpg.github.io/starbucks/",
       repo_href: "https://github.com/moshe-jpg/starbucks"
     },
