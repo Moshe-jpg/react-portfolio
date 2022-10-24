@@ -27,77 +27,77 @@ const Skills = () => {
     {
       name: "Html",
       description:
-        "(HyperText Markup Language) is the code that is used to structure a web page and its content.",
+        "(HyperText Markup Language) is the code that is used to structure web pages/contents.",
       skillImg: HtmlImg,
       skillLink: "https://www.w3schools.com/html/",
     },
     {
       name: "Css",
       description:
-        "A computer language for laying out and structuring web pages (HTML or XML). It controls design",
+        "A computer language for laying out and structuring web pages. It controls design",
       skillImg: CssImg,
       skillLink: "https://www.w3schools.com/css/",
     },
     {
       name: "Github",
       description:
-        "A code hosting platform for version control and collaboration. Create projects from anywhere.",
+        "A code hosting platform for version control and collaboration. Use it anywhere.",
       skillImg: GithubImg,
       skillLink: "https://github.com/",
     },
     {
       name: "Bootstrap",
       description:
-        "A free, open source front-end development framework for the creation of websites and web apps.",
+        "A free, open source front-end development framework for creating sites and apps.",
       skillImg: BootstrapImg,
       skillLink: "https://getbootstrap.com/",
     },
     {
       name: "Tailwind",
       description:
-        "By using this utility-first framework, you don't have to write custom CSS to style your application.",
+        "By using this utility-first framework, you don't have to write CSS to style your site.",
       skillImg: TailwindImg,
       skillLink: "https://tailwindcss.com/",
     },
     {
       name: "Jquery",
       description:
-        "Common tasks that require many lines of JavaScript code to accomplish are reduced to a single line of code.",
+        "Common tasks that require many lines of JavaScript code to accomplish are reduced 1 line.",
       skillImg: JqueryImg,
       skillLink: "https://jquery.com/",
     },
     {
       name: "Node JS",
       description:
-        "Used for server-side programming, and primarily deployed for non-blocking, event-driven servers.",
+        "Used for server-side programming, and deployed for non-blocking, event-driven servers.",
       skillImg: NodeImg,
       skillLink: "https://nodejs.org/",
     },
     {
       name: "React JS",
       description:
-        "Used for building interactive user interfaces and web applications quickly and efficiently with less code.",
+        "Used for building interactive user interfaces/web applications quickly and efficiently.",
       skillImg: ReactImg,
       skillLink: "https://reactjs.org/",
     },
     {
       name: "Express JS",
       description:
-        "Provides broad features for building web/mobile applications. It is used to build SPA's, multipage, and hybrid apps.",
+        "Provides broad features for web/mobile applications. Used for SPA's/multipages/hybrid apps.",
       skillImg: ExpressImg,
       skillLink: "https://expressjs.com/",
     },
     {
       name: "Handlebars",
       description:
-        "Used to keep your HTML pages simple and clean and decoupled from the logic-based JavaScript files.",
+        "Used to keep your HTML pages simple/clean and decoupled from the logic-based JavaScript files.",
       skillImg: HandlebarsImg,
       skillLink: "https://handlebarsjs.com/",
     },
     {
       name: "Mysql",
       description:
-        "A tool used to manage databases and servers, while not a database, it's used for managing and organising data.",
+        "A tool used to manage databases and servers, while not a db it's used for managing/organising data.",
       skillImg: MysqlImg,
       skillLink: "https://www.mysql.com/",
     },
@@ -111,14 +111,14 @@ const Skills = () => {
     {
       name: "MongoDB",
       description:
-        "A document database used to build highly available/scalable internet applications with its flexible schema approach.",
+        "A document database used to build highly scalable internet applications with flexible schema.",
       skillImg: MongodbImg,
       skillLink: "https://www.mongodb.com/",
     },
     {
       name: "Mongoose",
       description:
-        "An ODM library for MongoDB and Node. js. It manages data, provides schema validation, and is used to translate between objects.",
+        "An ODM library for MongoDB and Node. js. It manages data, & provides schema validation.",
       skillImg: MongooseImg,
       skillLink: "https://mongoosejs.com/",
     },
@@ -137,10 +137,13 @@ const Skills = () => {
             </div>
             <div class="content">
               <h2>{skill.name}</h2>
-              <p className="skill-desc">{skill.description}</p>
-              <a className="skill-link" href={skill.skillLink}>
-                Explore
-              </a>
+              <p className="skill-desc">
+                {skill.description}
+                <br></br>
+                <a className="skill-link" href={skill.skillLink}>
+                  Explore
+                </a>
+              </p>
             </div>
             <img src={skill.skillImg} alt={skill.name} class="skill-img" />
           </div>

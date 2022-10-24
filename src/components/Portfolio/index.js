@@ -8,9 +8,18 @@ import exerciseImg from "../../assets/exercise.jpg";
 import teamImg from "../../assets/team.jpg";
 import prodImg from "../../assets/productivity.jpg";
 import innerPatternImg from "../../assets/inner-pattern.png";
+import starbsImg from "../../assets/starbs.jpg";
 
 const Portfolio = () => {
   const [projects] = useState([
+    {
+      header: "Top Featured",
+      img: starbsImg,
+      name: "Starbucks",
+      text: "A Starbucks clone. Wbesite is fully responsive, and is complete with animations, landing, current, & contact pages.",
+      site_href: "https://moshe-jpg.github.io/starbucks/",
+      repo_href: "https://github.com/moshe-jpg/starbucks"
+    },
     {
       header: "Top Featured",
       img: innerPatternImg,

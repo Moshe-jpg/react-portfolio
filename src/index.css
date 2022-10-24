@@ -606,7 +606,8 @@ h4 {
 
   .content {
     position: relative;
-    top: 50%;
+    top: 25%;
+    left: 5%;
     width: 90%;
     height: 40%;
     text-align: center;
@@ -627,6 +628,10 @@ h4 {
     border-radius: 5px;
     margin-top: 5px;
     font-size: 1.2em;
+  }
+
+  .skill-card:hover .content {
+    left: 5%;
   }
 
   .skill-card .skill-img {
