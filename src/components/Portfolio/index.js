@@ -9,9 +9,18 @@ import teamImg from "../../assets/team.jpg";
 import prodImg from "../../assets/productivity.jpg";
 import innerPatternImg from "../../assets/inner-pattern.png";
 import starbsImg from "../../assets/starbs.jpg";
+import mkImg from "../../assets/mk.webp";
 
 const Portfolio = () => {
   const [projects] = useState([
+    {
+      header: "Top Featured",
+      img: mkImg,
+      name: "Mekor Chaim",
+      text: "A small feature site built for a post secondary school client in Brooklyn NY for young working professionals.",
+      site_href: "https://moshe-jpg.github.io/mekor-chaim/",
+      repo_href: "https://github.com/moshe-jpg/mekor-chaim"
+    },
     {
       header: "Top Featured",
       img: starbsImg,
