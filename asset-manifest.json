@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.f6f2874a.css",
-    "main.js": "/react-portfolio/static/js/main.38a1224b.js",
+    "main.js": "/react-portfolio/static/js/main.44ca63d8.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/inner-pattern.png": "/react-portfolio/static/media/inner-pattern.566687ae4c3d8d61e5c3.png",
     "static/media/Moshe-Work-Resume-Updated_11-03.pdf": "/react-portfolio/static/media/Moshe-Work-Resume-Updated_11-03.ba4325365ff48214a0ed.pdf",
     "static/media/productivity.jpg": "/react-portfolio/static/media/productivity.e2510ab3119c3eb3fb4f.jpg",
     "static/media/moshe-headshot.jpg": "/react-portfolio/static/media/moshe-headshot.c10dab1b0203d4e09230.jpg",
     "static/media/blog.jpg": "/react-portfolio/static/media/blog.15bdd1ae1bab5e28c898.jpg",
+    "static/media/mk.webp": "/react-portfolio/static/media/mk.fc58dffa7e690665d5dd.webp",
     "static/media/starbs.jpg": "/react-portfolio/static/media/starbs.b5a0ab69d926de836477.jpg",
     "static/media/jquery.png": "/react-portfolio/static/media/jquery.d7a89b5bf087dbfdcf55.png",
     "static/media/github-footer.png": "/react-portfolio/static/media/github-footer.e4de70655abd41f4aa30.png",
@@ -27,11 +28,11 @@
     "static/media/mongodb.png": "/react-portfolio/static/media/mongodb.940824112db2f1788f28.png",
     "index.html": "/react-portfolio/index.html",
     "main.f6f2874a.css.map": "/react-portfolio/static/css/main.f6f2874a.css.map",
-    "main.38a1224b.js.map": "/react-portfolio/static/js/main.38a1224b.js.map",
+    "main.44ca63d8.js.map": "/react-portfolio/static/js/main.44ca63d8.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6f2874a.css",
-    "static/js/main.38a1224b.js"
+    "static/js/main.44ca63d8.js"
   ]
 }
