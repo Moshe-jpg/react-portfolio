@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import kiImg from "../../assets/ki-sr.jpg";
 import blogImg from "../../assets/blog.jpg";
 import readirectImg from "../../assets/readirect.jpg";
 import weatherImg from "../../assets/weather.jpg";
@@ -15,11 +16,19 @@ const Portfolio = () => {
   const [projects] = useState([
     {
       header: "Top Featured",
+      img: kiImg,
+      name: "Kosher Innovations",
+      text: "The new Kosher Innovations website. Super Fast, beautifully animated",
+      site_href: "hhttps://kosherinnovations.github.io/kosher-lamp/",
+      repo_href: "https://github.com/KosherInnovations/kosher-lamp",
+    },
+    {
+      header: "Top Featured",
       img: mkImg,
       name: "Mekor Chaim",
       text: "A small feature site built for a post secondary school client in Brooklyn NY for young working professionals.",
       site_href: "https://moshe-jpg.github.io/mekor-chaim/",
-      repo_href: "https://github.com/moshe-jpg/mekor-chaim"
+      repo_href: "https://github.com/moshe-jpg/mekor-chaim",
     },
     {
       header: "Top Featured",
@@ -27,7 +36,7 @@ const Portfolio = () => {
       name: "Starbucks",
       text: "A Starbucks clone. Website is fully responsive, and is complete with animations, landing, current, & contact pages.",
       site_href: "https://moshe-jpg.github.io/starbucks/",
-      repo_href: "https://github.com/moshe-jpg/starbucks"
+      repo_href: "https://github.com/moshe-jpg/starbucks",
     },
     {
       header: "Top Featured",
@@ -35,7 +44,7 @@ const Portfolio = () => {
       name: "InnerPattern",
       text: "A mental health tracker application. It will empower users to keep track of their thoughts and accompanying mood. ",
       site_href: "http://innerpattern.herokuapp.com/",
-      repo_href: "https://github.com/Tyl3r-s/InnerPattern"
+      repo_href: "https://github.com/Tyl3r-s/InnerPattern",
     },
     {
       header: "Top Featured",
@@ -43,7 +52,7 @@ const Portfolio = () => {
       name: "Blog Spot",
       text: "A full stack application which allows users to interact with each other. Information is stored on a Mysql database.",
       site_href: "https://blog--spot.herokuapp.com/",
-      repo_href: "https://github.com/Moshe-jpg/blog-spot"
+      repo_href: "https://github.com/Moshe-jpg/blog-spot",
     },
     {
       header: "Top Featured",
@@ -51,7 +60,7 @@ const Portfolio = () => {
       name: "Readirect",
       text: "A movie/book ratings website that allows users to quickly choose between what's the better version of the story.",
       site_href: "https://katiebutler37.github.io/readirect/",
-      repo_href: "https://github.com/katiebutler37/readirect"
+      repo_href: "https://github.com/katiebutler37/readirect",
     },
     {
       header: "Top Featured",
@@ -59,7 +68,7 @@ const Portfolio = () => {
       name: "Feely Weather",
       text: "A weather site that gives you a single day and 5 day forecast with a visual representation of Temp, Humidity, UVI and Windspeed.",
       site_href: "https://moshe-jpg.github.io/feely-weather-app/",
-      repo_href: "https://github.com/Moshe-jpg/feely-weather-app"
+      repo_href: "https://github.com/Moshe-jpg/feely-weather-app",
     },
     {
       header: "Featured",
@@ -67,15 +76,16 @@ const Portfolio = () => {
       name: "Run Buddy",
       text: "A basic webpage built for an online exercise startup. It comes with a stylish landing page fully equipped to get Run Buddy new customers.",
       site_href: "https://moshe-jpg.github.io/run-buddy/",
-      repo_href: "https://github.com/Moshe-jpg/run-buddy"
+      repo_href: "https://github.com/Moshe-jpg/run-buddy",
     },
     {
       header: "Featured",
       img: teamImg,
       name: "Build The Team",
       text: "A team builder website built with inquirer. The user will input their team information into prompts and it will dynamically generate a webpage.",
-      site_href: "https://www.awesomescreenshot.com/video/9887842?key=f308ebe4ec8c3fcb6b8460e1ebe2990e",
-      repo_href: "https://github.com/Moshe-jpg/build-the-team"
+      site_href:
+        "https://www.awesomescreenshot.com/video/9887842?key=f308ebe4ec8c3fcb6b8460e1ebe2990e",
+      repo_href: "https://github.com/Moshe-jpg/build-the-team",
     },
     {
       header: "Featured",
@@ -83,7 +93,7 @@ const Portfolio = () => {
       name: "Productivity Workday Scheduler",
       text: "A notetaker which will save your notes in colour coded slots based on the amount of time left to perform them. Useful for getting tasks done.",
       site_href: "https://moshe-jpg.github.io/Productivity-Work-Day-Scheduler/",
-      repo_href: "https://github.com/Moshe-jpg/Productivity-Work-Day-Scheduler"
+      repo_href: "https://github.com/Moshe-jpg/Productivity-Work-Day-Scheduler",
     },
   ]);
 
